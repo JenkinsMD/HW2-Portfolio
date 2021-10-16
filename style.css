@@ -126,10 +126,10 @@ a {
 
 
 /*Change border color to white when hovering*/
-.titleCard:hover, .smallCard:hover, .bigCard:Hover {
+/* .titleCard:hover, .smallCard:hover, .bigCard:Hover {
     border-color: white;
 
-}
+} */
 
 /*Project description and link*/
 .titleCard {
