@@ -7,17 +7,11 @@
 
 
 body {
-    background-color: rgb(199, 201, 201);
+    background-color: rgb(155, 166, 228);
    
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(155, 166, 228);
 
-}
 nav{
     flex: 1;
     text-align: right;
@@ -51,179 +45,23 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 25px;
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(142, 154, 224);
+
 }
 
-/*Sets up the container for the sections.  There will be 1 side that has a description, the other side will hold the contents*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    
-    margin: 10px 0px;
-}
-
-/*Sets up the description part of the sections*/
-.col-1 {
-    display: flex;
-    flex-wrap: wrap;
+.section1 {
     background-color: rgb(155, 166, 228);
-    width: 30%;
-    border-right: solid 5px darkblue;
-    align-content: flex-start;
-    justify-content: flex-end;
-    color: darkblue;
-    
 }
 
-.col-1 p {
-    font-size: 40px;
-   
+.section2 {
+    background-color: rgb(165, 174, 230);
 }
 
-/*Sets up the content part of the content sections*/
-.col-2 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    justify-content: space-evenly;
-    margin: 0 5%;
-    
+.section3 {
+    background-color: rgb(170, 178, 228);
 }
 
-/*Container for the main project*/
-.bigCard {
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 5px darkblue;
-  
-    flex-basis: 100%;
-    margin: 10px 5%;
-    height: 200px; 
-
-}
-
-/*Containter for smaller projects*/
-.smallCard {
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 5px darkblue;
-    
-    
-    flex-basis: 40%;
-    margin: 10px 5%;
-    
-    height: 200px;
-   
-}
-
-/*.smallCard:hover {
-    border-color: white;
-
-}*/
-
-
-/*Change border color to white when hovering*/
-/* .titleCard:hover, .smallCard:hover, .bigCard:Hover {
-    border-color: white;
-
-} */
-
-/*Project description and link*/
-.titleCard {
-    position: relative;
-    height: 80px;
-    width: 160px;
-    background-color: rgb(155, 166, 228);
-    
-    top: 90px;
-    left: -5px;
-    color: white;
-    border: solid 5px darkblue;
-
-}
-
-.titleCard p {
-    position: relative;
-    top: 30px;
-
-}
-
-.col-2 ul{
-    display: flex;
-   
-}
-
-.col-2 ul li {
-    margin: 20px;
-
-}
-
-
-
-
-/*Card background images*/
-#orange {
-    background-image: url("https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-#blue {
-    background-image: url("https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-
-
-#green1 {
-    background-image: url("https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-   
-
-}
-
-
-#purple {
-    background-image: url("https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-size: cover;
-
-}
-
-#yellow {
-    background-image: url("https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-size: cover;
-
-}
-
-@media screen and (max-width: 760px) {
-    .smallCard {
-        flex-basis: 100%;
-       /* border: solid orange 10px; */
-    }
-
-    
-
-    .col-1, .col-2, .row {
-        flex-basis: 100%;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-}

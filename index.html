@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Its all about me</title>
   <link rel="stylesheet" href="reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <div class="containter">
+    <div >
         <div class="navbar">
             <div class="logo">
-                <img src="https://cdn.pixabay.com/photo/2018/07/23/11/23/cartoon-3556648__340.png" height="250px" width="250px">
+                <img src="./Assets/Avatar.png" height="250px" width="250px">
             </div> 
             <nav>
                 <ul>
@@ -27,92 +28,145 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-1" id="aboutAnch"> 
-            <p>About me</p>
+<div class="section1">
+    <div class="card mb-3 section1" >
+        <div class="row g-0 cardbackground">
+          <div class="col-md-4">
+         
+            <h1 id=aboutAnch>About me</h1>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About me</h5>
+              <p class="card-text">I am currently a student enrolled at OSU Coding Bootcamp.  My background is in accounting, but I have always had an interest in web development. I am taking this course to challenge my self to learn a new skillset and potentially pursue a career change.</p>
+             
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-            <p>
-               Hi, I'm Mike.  I am currently working my way through bootcamp to become a full stack developer.  This is a collection of my projects to date.  I will continue to update this page as my portfolio grows.
-            </p>
-            <br>
-            <!-- <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore atque error at sed, consequuntur dicta officiis deleniti, aspernatur voluptatum unde recusandae fugit possimus sint. Ab nisi id veritatis libero?
-            </p> -->
         </div>
 
-    </div>
-    <div class="row">
-        <div class="col-1" id="portAnch"> 
-            <p>Portfolio</p>
-        </div>
-        <div class="col-2">
-            <div class="bigCard" id="green1">
-                <a href="https://jenkinsmd.github.io/GrpPrj1-Bitcoin/">
-                <div class="titleCard">
-                    <!-- <a href="https://jenkinsmd.github.io/GrpPrj1-Bitcoin/"></a> -->
-                    <p>Bitcoin Hub</p>
-                    <p><sub>(Javascript/API)</sub></p>
-                </div>
-                </a>>
-            </div>
-            <div class="smallCard" id="orange">
-                <a href="https://jenkinsmd.github.io/HW6-Dashboard/">
-                <div class="titleCard">
-                    <!-- <a href="https://jenkinsmd.github.io/HW6-Dashboard/"></a> -->
-                    <p>Weather Dashboard</p>
-                    <p><sub>(Javascript/API)</sub></p>
-                </div>
-                </a>
-            </div>
-          
-            <div class="smallCard" id="blue" >
-                <a href="https://jenkinsmd.github.io/HW5-Schedule/">
-                <div class="titleCard">
-                    <!-- <a href="https://jenkinsmd.github.io/HW5-Schedule/"> -->
-                    <p>Daily Schedule</p>
-                    <p><sub>(Javascript/JQuery)</sub></p>
-                </div>
-                </a>
-            </div>
-            <!-- <div class="smallCard" id="purple">
-                <a href="https://placeholder.com/">
-                <div class="titleCard">
-                    <p>Small project 3</p>
-                    <p><subscript>TBD</subscript></p>
-                </div>
-                </a>
-            </div>
-            <div class="smallCard" id="yellow"> 
-                <a href="https://placeholder.com/">
-                <div class="titleCard">
-                    <p>Small project 4</p>
-                    <p><subscript>TBD</subscript></p>
-                </div> -->
-            <!-- </div>
-                </a> -->
-        </div>
-
-    </div>
-    
-    <div class="row">
-        <div class="col-1" id="contactAnch"> 
-            <p>Contact me</p>
-        </div>
-        <div class="col-2">
-            <ul>
-                <li><a href="">m:555.555.5555</a></li>
-                <li><a href="">placeholder@email.com</a></li>
-                <li><a href="https://github.com/JenkinsMD">Github</a></li>
-                <li><a href="https://www.linkedin.com">Linkedin</a></li>
+</div> 
+   
+<div class="section2">
+    <h1 id=portAnch>Portfolio</h1>
+    <div class="container ">
+    <div class="row ">
+        <div class="col-12 col-md-6 col-lg-4 g-3"> 
+            <div class="card">
+                <img class="card-img" src="Assets/Fitnesstracker1.JPG" alt="Card image "></img>
+                <div class="card-body  card-img-overlay ">
+                  
+                  <h5 class="card-title"><span class="bg-secondary text-white">Workout Tracker</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><span class="bg-secondary text-white">NoSQL</span></h6>
                 
-            </ul>
+                </div>
+                <footer class="card-footer d-flex align-content-end justify-space-between">
+                <a href="https://mj-workout-tracker.herokuapp.com/" class="card-link position-relative btn btn-secondary btn-sm " target="_blank">Deployed Page</a>  
+                <a href="https://github.com/JenkinsMD/WorkoutTracker" target="_blank" class="card-link btn btn-secondary btn-sm position-relative ">Repo</a>
+                </footer>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 g-3"> 
+            <div class="card ">
+                <img class="card-img" src="Assets/Bitcoin1.JPG" alt="Card image "></img>
+                <div class="card-body  card-img-overlay ">
+                  
+                  <h5 class="card-title"><span class="bg-secondary text-white">Bitcoinhub</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><span class="bg-secondary text-white">API</span></h6>
+                
+                </div>
+                <footer class="card-footer d-flex align-content-end justify-space-between">
+                <a href="https://jenkinsmd.github.io/GrpPrj1-Bitcoin" class="card-link position-relative btn btn-secondary btn-sm " target="_blank">Deployed Page</a>  
+                <a href="https://github.com/JenkinsMD/GrpPrj1-Bitcoin" target="_blank" class="card-link btn btn-secondary btn-sm position-relative ">Repo</a>
+                </footer>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 g-3"> 
+            <div class="card ">
+                <img class="card-img" src="Assets/WorkDayScheduler1.JPG" alt="Card image "></img>
+                <div class="card-body  card-img-overlay ">
+                  
+                  <h5 class="card-title"><span class="bg-secondary text-white">Work Day Scheduler</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><span class="bg-secondary text-white">API</span></h6>
+                
+                </div>
+                <footer class="card-footer d-flex align-content-end justify-space-between">
+                <a href="https://jenkinsmd.github.io/HW5-Schedule/" class="card-link position-relative btn btn-secondary btn-sm " target="_blank">Deployed Page</a>  
+                <a href="https://github.com/JenkinsMD/HW5-Schedule" target="_blank" class="card-link btn btn-secondary btn-sm position-relative ">Repo</a>
+                </footer>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 g-3"> 
+            <div class="card ">
+                <img class="card-img" src="Assets/MusicClub1.JPG" alt="Card image "></img>
+                <div class="card-body  card-img-overlay ">
+                  
+                  <h5 class="card-title"><span class="bg-secondary text-white">Music Review Club</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><span class="bg-secondary text-white">MVC</span></h6>
+                
+                </div>
+                <footer class="card-footer d-flex align-content-end justify-space-between">
+                <a href="https://music-review-club.herokuapp.com/" class="card-link position-relative btn btn-secondary btn-sm " target="_blank">Deployed Page</a>  
+                <a href="https://github.com/lydiawdesign/music-review-club" target="_blank" class="card-link btn btn-secondary btn-sm position-relative ">Repo</a>
+                </footer>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 g-3"> 
+            <div class="card ">
+                <img class="card-img" src="Assets/Weathertracker1.JPG" alt="Card image "></img>
+                <div class="card-body  card-img-overlay ">
+                  
+                  <h5 class="card-title"><span class="bg-secondary text-white">Weather Dashboard</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><span class="bg-secondary text-white">API</span></h6>
+                
+                </div>
+                <footer class="card-footer d-flex align-content-end justify-space-between">
+                <a href="https://jenkinsmd.github.io/HW6-Dashboard/" class="card-link position-relative btn btn-secondary btn-sm " target="_blank">Deployed Page</a>  
+                <a href="https://github.com/JenkinsMD/HW6-Dashboard" target="_blank" class="card-link btn btn-secondary btn-sm position-relative ">Repo</a>
+                </footer>
+            </div>
+        </div>
+        
+
+
+    </div>
+</div>
+    
+</div>
+</div>
+
+
+     
+     
+<div class="section3">
+    <h1 id=contactAnch>Contact me</h1>
+    <div class="row">
+        <div class="container ">
+            <footer class="text-center">
+               <a href="https://github.com/JenkinsMD" target="_blank"> Github</a> | 
+               <a href="https://www.linkedin.com/" target="_blank"> Linkedin</a> |
+                <a href="https://www.instagram.com/beardedmcnugget/" target="_blank"> Resume</a> |
+                <a href="tel;+6145476043">  Phone: 614.547.6043</a> |
+                <a href="mailto: jenkinsmdevelop@gmail.com">  E: jenkinsmdevelop@gmail.com</a> 
+              
+    
+            </footer>
+    
         </div>
 
     </div>
 
+</div>
+  
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 

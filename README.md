@@ -1,18 +1,32 @@
 # Portfolio
 
-## Description
 
-This page is a collection of my projects and contains my contact information. 
+# Page links
 
-# Page link
+ * https://jenkinsmd.github.io/HW2-Portfolio/
 
- https://jenkinsmd.github.io/HW2-Portfolio/
+ * https://github.com/JenkinsMD/HW2-Portfolio
+
+ ## Description
+
+This is a portfolio of what I have accomplished in the course so far.  My portfolio will grow and improve the more I practice.  Also included is an about me section and contact information. 
+
 
 ## Mock-Up
 
 The following screenshot shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/Homepage.png)
+![portfolio demo](./Assets/Portfolio1.JPG)
+
+## Projects 
+* Workout Tracker - https://mj-workout-tracker.herokuapp.com/
+
+* Bitcoin - https://jenkinsmd.github.io/GrpPrj1-Bitcoin
+* Work Day Scheduler - https://jenkinsmd.github.io/HW5-Schedule/
+
+* Music Review Club - https://music-review-club.herokuapp.com/
+
+* Weather Dashboard - https://jenkinsmd.github.io/HW6-Dashboard/
 
 ## License
 
